@@ -28,7 +28,7 @@
                    <td>{{$casilla->ubicacion}}</td>
                    <td><a href="{{ route('casilla.edit', $casilla->id)}}" class="btn btn-primary">Edit</a></td>  
                    <td>
-                       <form action= "{{ route('casilla.destroy'. $casilla->id)}}" method="post">
+                       <form action= "{{ route('casilla.destroy', $casilla->id)}}" method="post">
                            @csrf 
                            @method('DELETE')
                            <button class="btn btn-danger" type="submit" onclick="return confirm('Esta seguro de borrar {{$casilla->ubicacion}}')" >Del</button>

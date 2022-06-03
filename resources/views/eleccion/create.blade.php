@@ -75,6 +75,7 @@
 
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
+        <button onclick="location.href='{{asset('/menu')}}'">Menu</button>
     </div>
 </div>
 @endsection

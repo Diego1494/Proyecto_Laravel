@@ -56,7 +56,7 @@
     <button class="btn btn-primary"
      type="submit">Guardar cambios</button>
 
-
+     <button onclick="location.href='{{asset('/menu')}}'">Menu</button>
 </form>
 
 @endsection

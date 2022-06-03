@@ -50,5 +50,6 @@
         @endforeach
     </tbody>
 </table>
+<button onclick="location.href='{{asset('/menu')}}'">Menu</button>
 <div>
 @endsection
